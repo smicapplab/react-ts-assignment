@@ -1,0 +1,38 @@
+.user-card {
+    background-color: rgba(250, 250, 250, 0.9) !important;
+    overflow: "hidden";
+    border-radius: 0px;
+    border-width: 0.1rem;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 1rem !important;
+}
+
+.user-card > div > p {
+    line-height: 0.4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+.ant-card-actions {
+    background-color: rgba(250, 250, 250, 0.9) !important;
+    border-radius: 0px !important;
+}
+
+.ant-card-body {
+    background: #ffffff;
+    overflow: "hidden";
+    border-radius: 0px !important;
+}
+
+.heart {
+    color: "#FF0000"
+}
+
+.avatar{
+    height: 12rem;
+}
