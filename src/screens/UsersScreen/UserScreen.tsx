@@ -13,7 +13,8 @@ export const UsersScreen = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [hasErrors, setHasErrors] = useState<boolean>(false);
 
-  useOnceMountEffect(() => {
+  useOnceMountEffect(() => { //useEffect is called 2x on page load
+    console.log("++++ useOnceMountEffect +++++")
     const fetchUsers = async () => {
       try {
         const fetchedUsers = await getUsers();
